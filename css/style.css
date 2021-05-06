@@ -90,6 +90,12 @@ header nav li{
 ul{
     display: inline-flex;
 }
+li:hover{
+    color: crimson;
+    font-size: 25px;
+    transition: color 2s;
+    transition: font-size 1s;
+}
 header .logo_main{
     height: 100px;
     margin-left: 120px;
